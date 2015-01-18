@@ -1,0 +1,16 @@
+.square {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin: 0.2em; /*for centering purposes*/
+    -webkit-transition: width 0.2s, height 0.2s, margin 0.2s;
+    -moz-transition: width 0.2s, height 0.2s, margin 0.2s;
+    -ms-transition: width 0.2s, height 0.2s, margin 0.2s;
+    transition: width 0.2s, height 0.2s, margin 0.2s;
+}
+
+.square:hover {
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0.1em; /* inital margin - ((intial margin - width (or height))/2) */
+}
